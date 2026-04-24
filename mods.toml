@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="${v1.00}"
+license="${NONE}"
+issueTrackerURL="https://github.com/LestonjayCodes/swordthrowmod/issues"
+
+[[mods]]
+modId="${ec4e2dc5-8034-4ce0-9be1-f4211f52f4ec}"
+version="${1.21.11}"
+displayName="${Throwing Swords}"
+displayURL="https://github.com/LestonjayCodes/swordthrowmod"
+authors="${mod_authors}"
+description="${mod_description}"
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
